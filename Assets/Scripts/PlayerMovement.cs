@@ -47,7 +47,7 @@ public class PlayerMovement : BaseMovement
             }
             else
             {
-                myAnim.ChangeAnimBoolValue("Running"), false;
+                myAnim.ChangeAnimBoolValue("Running", false);
             }
         }
     }
