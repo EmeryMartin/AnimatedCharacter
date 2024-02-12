@@ -20,7 +20,7 @@ public class PlayerMovement : BaseMovement
     private void Update()
     {
         tempMovement = Input.GetAxis("Horizontal") * Camera.main.transform.right + Input.GetAxis("Vertical") * Camera.main.transform.forward;
-        tempMovement.y = 0f; //Ensure no vertical movement
+        
     }
 
     void FixedUpdate()
